@@ -1,0 +1,96 @@
+   /* Extra small devices */
+   @media (max-width: 575.98px) {
+    .container {
+      padding: 0 10px;
+    }
+    nav {
+      margin-left: 0;
+      width: 100%;
+      gap: 0;
+      font-weight: 400;
+    }
+    nav li {
+      margin-right: 10px;
+      font-size: 14px;
+    }
+    .blue, .brown, .grey, .orange {
+      width: 100%;
+      height: auto;
+    }
+    .images2 {
+      grid-template-columns: repeat(2, 1fr);
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      font-size: 16px;
+    }
+    .wee {
+      font-size: 16px;
+      margin-top: 2%;
+    }
+    .view-all-button {
+      margin-left: 0;
+    }
+    .Athletic {
+      display: block;
+    }
+    .mill {
+      margin-left: 0;
+    }
+    .hills, .try {
+      height: auto;
+    }
+    .welcome {
+      margin-top: 5%;
+      font-size: 24px;
+    }
+    .woman {
+      height: auto;
+    }
+    .footer {
+      flex-direction: column;
+      text-align: center;
+    }
+    .subscribe-button {
+      margin-top: 5%;
+      font-size: 14px;
+    }
+    .email-button {
+      margin-top: 5%;
+      font-size: 14px;
+    }
+    .wel {
+      margin-top: 5%;
+      font-size: 16px;
+    }
+    .lab {
+      margin-top: 5%;
+      font-size: 36px;
+    }
+    .sta {
+      font-size: 16px;
+      margin-top: 2%;
+    }
+    .pang {
+      margin-top: 5%;
+    }
+  }
+  
+  /* Small devices */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    nav li {
+      margin-right: 15px;
+    }
+    .blue, .brown, .grey, .orange {
+      width: 45%;
+      height: auto;
+    }
+    .images2 {
+      grid-template-columns: repeat(2, 1fr);
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
