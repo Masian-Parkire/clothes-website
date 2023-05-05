@@ -8,7 +8,7 @@
     font-family: Arial, sans-serif;
   }
   
-  .container {
+  .main {
     max-width: 100%;
     margin: 0 auto;
   }
@@ -72,20 +72,20 @@
       justify-content: center;
       gap: 2rem;
     }
-    .blue{
+    .bluedress{
       width: 300px;
       height: 335px;
     }
-    .brown{
+    .browndress{
       width: 300px;
       height: 335px;
     }
-    .grey{
+    .greydress{
       width: 300px;
       height: 335px;
   
     }
-    .orange{    
+    .orangedress{    
       width: 300px;
       height: 335px;
   }
@@ -112,7 +112,7 @@
     margin-top: 4%;
     color: #555;
   }
-  .view-all-button {
+  .view-btn {
       background-color: #f783ac;
       color: #fff;
       border: none;
@@ -127,25 +127,25 @@
     .view-all-button:hover {
       background-color: #555;
     }
-    .Athletic{
+    .types{
       display: grid;
       grid-template-columns: repeat(2,1fr); 
       margin-left: -15%;
     }
-  .mill{
+  .runs{
       
       height: 100%;
       margin-left: 27%;
   }
   
   
-  .hills{
+  .heel{
       width: 100%;
       height: 30%;
   
   
   }
-  .try{
+  .check{
       width: 100%;
       height:50% ;
   }
@@ -216,16 +216,16 @@
     .About{
       margin-top: 7%;
     }
-    .wel{
+    .shopi{
       margin-top: 7%;
       font-size: 20px;
     }
-    .lab{
+    .guste{
       margin-top: 2%;
       font-size: 50px;
       font-family: monospace;
     }
-    .sta{
+    .clear{
       font-size: 20px;
       margin-top: 2%;
       color: #555;

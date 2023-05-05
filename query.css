@@ -1,6 +1,6 @@
    /* Extra small devices */
    @media (max-width: 575.98px) {
-    .container {
+    .main {
       padding: 0 10px;
     }
     nav {
@@ -30,10 +30,10 @@
       font-size: 16px;
       margin-top: 2%;
     }
-    .view-all-button {
+    .view-btn {
       margin-left: 0;
     }
-    .Athletic {
+    .types {
       display: block;
     }
     .mill {
@@ -61,15 +61,15 @@
       margin-top: 5%;
       font-size: 14px;
     }
-    .wel {
+    .shopi {
       margin-top: 5%;
       font-size: 16px;
     }
-    .lab {
+    .guste {
       margin-top: 5%;
       font-size: 36px;
     }
-    .sta {
+    .clear {
       font-size: 16px;
       margin-top: 2%;
     }
